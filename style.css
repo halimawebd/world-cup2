@@ -1,0 +1,188 @@
+/* -------------*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}          
+           
+/*------------------------- 
+      Google fonts link 
+---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500&family=Roboto+Condensed&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+/*-------------------------
+        Header Start
+--------------------------*/
+header{
+    width: 80%;
+    margin: 40px auto;
+    background-color: #161616;
+    color: white;
+    border-radius: 20px;
+}
+.header-container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 33px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 4vw;
+    margin-bottom: 20px;
+ 
+}
+.half-width p{
+    font-size: 12px;
+    line-height: 1.5em;
+    
+}
+.half-width button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #DD0000;
+    padding: 20px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 30%;
+   height: 10%;
+   font-size: x-large;
+   
+
+}
+/* .bp{
+    font-size: medium;
+} */
+.banner-sala img{
+    position: relative;
+    left: 25px;
+    bottom: -4px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.container{
+display: flex;
+gap: 24px;
+width: 90%;
+margin: 50px auto;
+margin-top: 130px;
+padding-left: 12%;
+}
+
+.clickable-button{
+   width: 30%;
+   height: 10%;
+   background-color: #161616;
+   border-radius: 15px;
+}
+.picture-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+#blog-part-1{
+    padding: 20px;
+    background-color: white;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+#blog-part-1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+#blog-part-2{
+    padding: 20px;
+    background-color: white;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+#blog-part-2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+#blog-part-3{
+    padding: 20px;
+    background-color: white;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+#blog-part-3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+#blog-part-1:hover{
+    background-color: #DD0000;
+}
+#blog-part-2:hover{
+    background-color:darkgreen;
+}
+#blog-part-3:hover{
+    background-color: #DD0000;
+}
+.picture-part img{
+    width: 100%;
+   }
+
+   .blogs-2{
+    box-shadow: 0px 0px 1px;
+    border-radius: 15px;
+   }
+   .blogs-2 a{
+    display:inline-block;
+    
+   
+  
+   }
+   .transfer-button {
+     padding: 20px;
+   }
+
+   .transfer-button p{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    
+    color: #161616;
+   }
+   .icons {
+    padding-left: 30px;
+  }
+  .fa-solid, .fa-brands{
+   padding-right: 10px;
+   
+  } 
+
+
+
+
+
+
+
+
+
+
